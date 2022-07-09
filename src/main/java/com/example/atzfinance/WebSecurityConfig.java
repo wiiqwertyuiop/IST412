@@ -12,7 +12,7 @@ import com.example.atzfinance.Model.UserAuthentication;
 @Configuration
 public class WebSecurityConfig {
 	
-	final UserAuthentication userAuthentication = new UserAuthentication();
+    final UserAuthentication userAuthentication = new UserAuthentication();
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
