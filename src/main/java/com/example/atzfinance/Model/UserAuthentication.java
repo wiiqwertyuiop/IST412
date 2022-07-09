@@ -8,7 +8,8 @@ import org.springframework.security.core.AuthenticationException;
 public class UserAuthentication implements AuthenticationProvider {
 
     final User[] USER_DATABASE = {
-        new User("Bob", "password")
+        new User("user", "password"),
+        new User("bob", "password")
     };
 
     @Override
